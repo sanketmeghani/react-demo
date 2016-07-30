@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sanketmeghani/react-demo/issues"
   },
-  "homepage": "https://github.com/sanketmeghani/react-demo#readme"
+  "homepage": "https://github.com/sanketmeghani/react-demo#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
 }
