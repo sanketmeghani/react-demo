@@ -23,9 +23,9 @@ Install webpack globally
 
 `npm install -g webpack`
 
-Install required node modules
+Install required node modules dependencies
 
-`npm install -D`
+`npm install`
 
 Sublime Packages/Plugins Used
 --------------
