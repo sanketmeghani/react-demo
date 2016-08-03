@@ -5,12 +5,12 @@ var path = require('path');
 var __dirname = path.resolve();
 
 module.exports = {
-    context: __dirname,
+    context: __dirname + "/app",
     devtool: debug ? "inline-sourcemap" : null,
-    entry: "./scripts.js",
+    entry: "./app.js",
     output: {
-        path: __dirname,
-        filename: "scripts.min.js"
+        path: __dirname + "/dist/",
+        filename: "bundle.min.js"
     },
     plugins: debug ? [] : [
         new webpack.optimize.DedupePlugin(),
