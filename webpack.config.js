@@ -8,17 +8,23 @@ var __dirname = path.resolve();
 module.exports = {
     context: __dirname + "/app",
     devtool: debug ? "inline-sourcemap" : null,
-    entry: "./app.js",
+    entry: "./app.jsx",
     output: {
         path: __dirname + "/dist/",
         filename: "bundle.min.js"
+    },
+    module: {
+        loaders: [{
+            test: /\.jsx$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader'
+        }]
     },
     plugins: [
         new webpack.optimize.DedupePlugin(),
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
         new HtmlWebpackPlugin({
-            inject: 'head',
             template: 'index.html'
         })
     ],
