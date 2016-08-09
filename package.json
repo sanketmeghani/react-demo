@@ -1,25 +1,28 @@
 {
-    "name": "react-demo",
-    "version": "1.0.0",
-    "description": "A demo application to explore react and related technologies",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sanketmeghani/react-demo.git"
-    },
-    "keywords": [
-        "react"
-    ],
-    "author": "sanket.meghani@gmail.com",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/sanketmeghani/react-demo/issues"
-    },
-    "homepage": "https://github.com/sanketmeghani/react-demo#readme",
-    "devDependencies": {
-        "webpack": "^1.13.1"
-    }
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "A demo application to explore react and related technologies",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --inline --hot --content-base dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketmeghani/react-demo.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "sanket.meghani@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanketmeghani/react-demo/issues"
+  },
+  "homepage": "https://github.com/sanketmeghani/react-demo#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
