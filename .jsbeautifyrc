@@ -7,6 +7,7 @@
     "js": {
         "indent_char": " ",
         "indent_size": 4,
-        "max_preserve_newlines": 2
+        "max_preserve_newlines": 2,
+        "allowed_file_extensions": ["js", "json", "jshintrc", "jsbeautifyrc", "jsx", "babelrc"]
     }
 }
