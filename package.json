@@ -4,8 +4,8 @@
   "description": "A demo application to explore react and related technologies",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --progress --color --display-error-details",
-    "dev": "./node_modules/.bin/webpack-dev-server --inline --hot --content-base dist",
+    "webpack": "./node_modules/.bin/webpack --progress --color --display-error-details",
+    "dev-server": "./node_modules/.bin/webpack-dev-server --inline --hot --content-base dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

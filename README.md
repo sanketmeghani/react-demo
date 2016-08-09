@@ -19,13 +19,17 @@ Clone existing git repository to download the solution and change directory to `
 `git clone https://github.com/sanketmeghani/react-demo.git`    
 `cd react-demo`
 
-Install webpack globally
-
-`npm install -g webpack`
-
 Install required node modules dependencies
 
 `npm install`
+
+Prepare local build
+
+`npm run webpack`
+
+Start development server
+
+`npm run dev-server`
 
 Sublime Packages/Plugins Used
 --------------
