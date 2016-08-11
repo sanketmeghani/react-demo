@@ -18,6 +18,15 @@ module.exports = {
             test: /\.jsx$/,
             exclude: /node_modules/,
             loader: 'babel-loader'
+        }, {
+            test: /\.less/,
+            loader: 'style!css!less'
+        }, {
+            test: /\.css/,
+            loader: 'style!css'
+        }, {
+            test: /\.(woff2|woff|ttf|svg|eot)$/,
+            loader: 'file'
         }]
     },
     plugins: [

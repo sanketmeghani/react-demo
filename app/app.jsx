@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import 'bootstrap/less/bootstrap.less';
+
 class App extends React.Component {
 
     render() {
-        return <div > This is react demo < /div>;
+        return <h1> This is react demo </h1>;
     }
 }
 
