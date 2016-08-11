@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Button from 'react-bootstrap/lib/Button';
+
 import 'bootstrap/less/bootstrap.less';
 
 class App extends React.Component {
 
     render() {
-        return <h1> This is react demo </h1>;
+        return <Button bsStyle='success' bsSize='large'>React Demo</Button>;
     }
 }
 
