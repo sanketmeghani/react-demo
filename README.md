@@ -36,3 +36,7 @@ Access the application on [http://localhost:8080](http://localhost:8080)
 Sublime Packages/Plugins Used
 --------------
 1. [Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify) - To format HTML, CSS, JS, JSON
+
+Chrome Plugins Used
+--------------
+1. [React Dev Tools](https://github.com/facebook/react-devtools)
