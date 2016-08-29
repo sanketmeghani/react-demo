@@ -5,6 +5,11 @@ Technologies/Libraries Used
 1. Node.js (6.3.1)
 2. Npm (3.10.3)
 3. Webpack (1.13.1)
+4. React (15.3.0)
+5. Flux (2.1.1)
+6. React-Bootstrap (0.30.2)
+7. Events (1.1.1)
+8. Lodash (4.15.0)
 
 Pre-requisites
 --------------
